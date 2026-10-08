@@ -1,4 +1,4 @@
-/* Harrington Global Markets — prototype front-end (vanilla JS, no build step) */
+/* Harrington Global Markets — front-end (vanilla JS, no build step) */
 (function () {
   'use strict';
 

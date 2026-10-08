@@ -1,7 +1,7 @@
 {
   "name": "harrington-global-markets",
   "version": "0.1.0",
-  "description": "Harrington Global Markets — multi-asset market terminal prototype (Forex, Indices & Stocks, Financials & Tech, IPOs, S&P 500 outperformers)",
+  "description": "Harrington Global Markets — multi-asset market terminal (Forex, Indices & Stocks, Financials & Tech, IPOs, S&P 500 outperformers)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

@@ -1,4 +1,4 @@
-/* Harrington Global Markets — prototype styles */
+/* Harrington Global Markets — styles */
 :root {
   --bg: #0a0e14;
   --bg-2: #0f141c;
@@ -75,7 +75,6 @@ kbd { font-family: var(--mono); font-size: 11px; padding: 1px 5px; border: 1px s
   z-index: 40;
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-.logo { width: 38px; height: 38px; border-radius: 10px; box-shadow: 0 0 0 1px var(--line-2); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.1; }
 .brand-name { font-weight: 700; letter-spacing: 0.2px; font-size: 16px; }
 .brand-name em { font-style: normal; color: var(--gold); }
@@ -376,7 +375,6 @@ select.sel { background: var(--panel-2); color: var(--text); border: 1px solid v
   .topbar { grid-template-columns: auto 1fr auto auto; gap: 8px; padding: 8px 10px; }
   .brand-sub { display: none; }
   .brand-name { font-size: 14px; }
-  .logo { width: 30px; height: 30px; }
   .search { max-width: none; }
   .search input { padding: 8px 8px 8px 30px; font-size: 12px; }
   .conn .conn-text { display: none; }

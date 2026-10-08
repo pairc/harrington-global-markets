@@ -1,6 +1,6 @@
-# Harrington Global Markets — Prototype
+# Harrington Global Markets
 
-A zero-dependency, multi-asset market terminal prototype. Node.js backend + vanilla JS front-end (no build step, no npm installs).
+A zero-dependency, multi-asset market terminal. Node.js backend + vanilla JS front-end (no build step, no npm installs).
 
 ## Run
 
@@ -71,4 +71,4 @@ Every response carries `asOf` and `stale`; when an upstream call fails, the last
 * COT data comes from the CFTC Public Reporting API (Socrata datasets `6dca-aqww` legacy, `gpe5-46if` TFF, `72hh-3qpy` disaggregated) — futures-only, as of each Tuesday, published Fridays 15:30 ET; cached 6 h server-side. The COT index is the Williams-style (net − min) ÷ (max − min) over the window; z-score uses the trailing 52 weeks. Currency overlays quoted as USD-per-unit (JPY, CAD, CHF, MXN, BRL, ZAR are inverted) so price moves in the same direction as the futures contract.
 * Policy rates (`data/rates.json`) were compiled on 12 Sep 2026; the 2Y point on the US curve uses the CBOT 2-year yield future (`2YY=F`) as a proxy because Yahoo has no cash 2-year index. JSE bond ETF prices are converted from cents to rand.
 * Portfolio positions, watchlist and alerts live in `localStorage` only (nothing is sent to the server). A small demo portfolio is seeded on first launch — use **Clear all** or edit/delete rows to replace it. Alerts are evaluated only while a browser tab with the app is open.
-* This is a prototype for demonstration — not investment advice.
+* For demonstration — not investment advice.

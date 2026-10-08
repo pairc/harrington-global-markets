@@ -23,7 +23,7 @@ for health checks, and falls back to `/tmp` if the app directory is read-only.
 cd harrington-global-markets
 git init
 git add .
-git commit -m "Harrington Global Markets prototype"
+git commit -m "Harrington Global Markets"
 # create an empty repo on GitHub (or GitLab/Bitbucket), then:
 git remote add origin https://github.com/<you>/harrington-global-markets.git
 git branch -M main
@@ -150,6 +150,6 @@ No API keys are required — all upstream sources are public endpoints.
   `data/sp500_constituents.csv`) is edited by hand — commit and push to update it.
 * **Browser-side state** (portfolio, watchlist, alerts) lives in each visitor's `localStorage`;
   nothing is stored on the server.
-* The prototype has no authentication. If it should be private, put it behind your host's
+* The app has no authentication. If it should be private, put it behind your host's
   access control (Render/Railway private networking, Cloudflare Access, basic-auth in the reverse
   proxy, etc.).

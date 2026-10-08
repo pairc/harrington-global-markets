@@ -1,12 +1,12 @@
 /**
- * Harrington Global Markets — prototype server
+ * Harrington Global Markets — server
  * ------------------------------------------------
  * Zero-dependency Node.js server that:
  *   • serves the static front-end from /public
  *   • proxies + normalises public market-data endpoints (Yahoo Finance chart/spark,
  *     Google News RSS, open.er-api.com FX fallback)
  *   • caches responses in memory and persists a "last good" copy on disk so the
- *     prototype degrades gracefully when an upstream is unreachable.
+ *     app degrades gracefully when an upstream is unreachable.
  *
  * Run:  node server.js   (PORT env var optional, default 3000)
  */
@@ -921,5 +921,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Harrington Global Markets prototype listening on http://0.0.0.0:${PORT}`);
+  console.log(`Harrington Global Markets listening on http://0.0.0.0:${PORT}`);
 });
