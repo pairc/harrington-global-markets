@@ -1,0 +1,88 @@
+{
+  "_note": "CFTC Commitments of Traders universe. code = CFTC contract market code (Legacy futures-only dataset 6dca-aqww; TFF dataset gpe5-46if for financials; Disaggregated 72hh-3qpy for commodities). yahoo = price symbol overlaid on the chart.",
+  "lookbackYears": 3,
+  "groups": [
+    {
+      "name": "Currencies",
+      "icon": "💱",
+      "markets": [
+        { "code": "099741", "name": "Euro FX", "short": "EUR", "yahoo": "EURUSD=X", "unit": "€125,000" },
+        { "code": "097741", "name": "Japanese Yen", "short": "JPY", "yahoo": "JPY=X", "unit": "¥12.5m", "invertPrice": true },
+        { "code": "096742", "name": "British Pound", "short": "GBP", "yahoo": "GBPUSD=X", "unit": "£62,500" },
+        { "code": "090741", "name": "Canadian Dollar", "short": "CAD", "yahoo": "CAD=X", "unit": "C$100,000", "invertPrice": true },
+        { "code": "092741", "name": "Swiss Franc", "short": "CHF", "yahoo": "CHF=X", "unit": "CHF 125,000", "invertPrice": true },
+        { "code": "232741", "name": "Australian Dollar", "short": "AUD", "yahoo": "AUDUSD=X", "unit": "A$100,000" },
+        { "code": "112741", "name": "New Zealand Dollar", "short": "NZD", "yahoo": "NZDUSD=X", "unit": "NZ$100,000" },
+        { "code": "095741", "name": "Mexican Peso", "short": "MXN", "yahoo": "MXN=X", "unit": "MXN 500,000", "invertPrice": true },
+        { "code": "102741", "name": "Brazilian Real", "short": "BRL", "yahoo": "BRL=X", "unit": "BRL 100,000", "invertPrice": true },
+        { "code": "122741", "name": "South African Rand 🇿🇦", "short": "ZAR", "yahoo": "ZAR=X", "unit": "ZAR 500,000", "invertPrice": true },
+        { "code": "098662", "name": "US Dollar Index", "short": "DXY", "yahoo": "DX-Y.NYB", "unit": "$1,000 × index" },
+        { "code": "133741", "name": "Bitcoin (CME)", "short": "BTC", "yahoo": "BTC-USD", "unit": "5 BTC" },
+        { "code": "146021", "name": "Ether (CME)", "short": "ETH", "yahoo": "ETH-USD", "unit": "50 ETH" }
+      ]
+    },
+    {
+      "name": "Equity indices",
+      "icon": "📈",
+      "markets": [
+        { "code": "13874+", "name": "S&P 500 (consolidated)", "short": "S&P 500", "yahoo": "^GSPC", "unit": "E-mini equiv." },
+        { "code": "209742", "name": "Nasdaq-100 E-mini", "short": "NDX", "yahoo": "^NDX", "unit": "$20 × index" },
+        { "code": "12460+", "name": "Dow Jones (consolidated)", "short": "DJIA", "yahoo": "^DJI", "unit": "$5 × index" },
+        { "code": "239742", "name": "Russell 2000 E-mini", "short": "RUT", "yahoo": "^RUT", "unit": "$50 × index" },
+        { "code": "1170E1", "name": "VIX futures", "short": "VIX", "yahoo": "^VIX", "unit": "$1,000 × index" },
+        { "code": "240743", "name": "Nikkei 225 (yen)", "short": "NKY", "yahoo": "^N225", "unit": "¥500 × index" }
+      ]
+    },
+    {
+      "name": "Interest rates",
+      "icon": "🏦",
+      "markets": [
+        { "code": "042601", "name": "2-Year T-Note", "short": "UST 2Y", "yahoo": "ZT=F", "unit": "$200,000" },
+        { "code": "044601", "name": "5-Year T-Note", "short": "UST 5Y", "yahoo": "ZF=F", "unit": "$100,000" },
+        { "code": "043602", "name": "10-Year T-Note", "short": "UST 10Y", "yahoo": "ZN=F", "unit": "$100,000" },
+        { "code": "043607", "name": "Ultra 10-Year", "short": "Ultra 10Y", "yahoo": "TN=F", "unit": "$100,000" },
+        { "code": "020601", "name": "T-Bond", "short": "UST Bond", "yahoo": "ZB=F", "unit": "$100,000" },
+        { "code": "020604", "name": "Ultra T-Bond", "short": "Ultra Bond", "yahoo": "UB=F", "unit": "$100,000" },
+        { "code": "134741", "name": "3-Month SOFR", "short": "SOFR 3M", "yahoo": null, "unit": "$2,500 × IMM" },
+        { "code": "045601", "name": "30-Day Fed Funds", "short": "Fed Funds", "yahoo": "ZQ=F", "unit": "$4,167 × rate" }
+      ]
+    },
+    {
+      "name": "Metals",
+      "icon": "🥇",
+      "markets": [
+        { "code": "088691", "name": "Gold (COMEX)", "short": "Gold", "yahoo": "GC=F", "unit": "100 oz" },
+        { "code": "084691", "name": "Silver (COMEX)", "short": "Silver", "yahoo": "SI=F", "unit": "5,000 oz" },
+        { "code": "085692", "name": "Copper (COMEX)", "short": "Copper", "yahoo": "HG=F", "unit": "25,000 lb" },
+        { "code": "076651", "name": "Platinum (NYMEX)", "short": "Platinum", "yahoo": "PL=F", "unit": "50 oz" },
+        { "code": "075651", "name": "Palladium (NYMEX)", "short": "Palladium", "yahoo": "PA=F", "unit": "100 oz" }
+      ]
+    },
+    {
+      "name": "Energy",
+      "icon": "🛢️",
+      "markets": [
+        { "code": "067651", "name": "WTI Crude (NYMEX physical)", "short": "WTI", "yahoo": "CL=F", "unit": "1,000 bbl" },
+        { "code": "06765T", "name": "Brent Last Day (NYMEX)", "short": "Brent", "yahoo": "BZ=F", "unit": "1,000 bbl" },
+        { "code": "023651", "name": "Henry Hub Natural Gas", "short": "Nat Gas", "yahoo": "NG=F", "unit": "10,000 mmBtu" },
+        { "code": "111659", "name": "RBOB Gasoline", "short": "RBOB", "yahoo": "RB=F", "unit": "42,000 gal" },
+        { "code": "022651", "name": "NY Harbor ULSD", "short": "ULSD", "yahoo": "HO=F", "unit": "42,000 gal" }
+      ]
+    },
+    {
+      "name": "Agriculture & softs",
+      "icon": "🌾",
+      "markets": [
+        { "code": "002602", "name": "Corn (CBOT)", "short": "Corn", "yahoo": "ZC=F", "unit": "5,000 bu" },
+        { "code": "005602", "name": "Soybeans (CBOT)", "short": "Soybeans", "yahoo": "ZS=F", "unit": "5,000 bu" },
+        { "code": "001602", "name": "Wheat SRW (CBOT)", "short": "Wheat", "yahoo": "ZW=F", "unit": "5,000 bu" },
+        { "code": "080732", "name": "Sugar No. 11 (ICE)", "short": "Sugar", "yahoo": "SB=F", "unit": "112,000 lb" },
+        { "code": "083731", "name": "Coffee C (ICE)", "short": "Coffee", "yahoo": "KC=F", "unit": "37,500 lb" },
+        { "code": "073732", "name": "Cocoa (ICE)", "short": "Cocoa", "yahoo": "CC=F", "unit": "10 t" },
+        { "code": "033661", "name": "Cotton No. 2 (ICE)", "short": "Cotton", "yahoo": "CT=F", "unit": "50,000 lb" },
+        { "code": "057642", "name": "Live Cattle (CME)", "short": "Live Cattle", "yahoo": "LE=F", "unit": "40,000 lb" },
+        { "code": "054642", "name": "Lean Hogs (CME)", "short": "Lean Hogs", "yahoo": "HE=F", "unit": "40,000 lb" }
+      ]
+    }
+  ]
+}

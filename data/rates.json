@@ -1,0 +1,42 @@
+{
+  "_note": "Central-bank policy rates as last published (compiled 12 Sep 2026 from central-bank releases and Investing.com's central-bank table). Update after each decision.",
+  "asOf": "2026-09-12",
+  "centralBanks": [
+    { "code": "FED", "bank": "US Federal Reserve", "flag": "🇺🇸", "rate": "3.50 – 3.75%", "rateNum": 3.625, "lastMove": "Hold (9–3 vote, 3 dissents for a hike)", "lastDate": "2026-07-29", "next": "2026-09-16", "instrument": "Fed funds target range", "tone": "hawkish-hold" },
+    { "code": "ECB", "bank": "European Central Bank", "flag": "🇪🇺", "rate": "2.25%", "rateNum": 2.25, "lastMove": "Hold (deposit facility 2.25% · MRO 2.40% · MLF 2.65%)", "lastDate": "2026-07-23", "next": "2026-10-29", "instrument": "Deposit facility rate", "tone": "hold" },
+    { "code": "BOE", "bank": "Bank of England", "flag": "🇬🇧", "rate": "3.75%", "rateNum": 3.75, "lastMove": "Hold", "lastDate": "2026-07-30", "next": "2026-09-17", "instrument": "Bank Rate", "tone": "hold" },
+    { "code": "BOJ", "bank": "Bank of Japan", "flag": "🇯🇵", "rate": "1.00%", "rateNum": 1.0, "lastMove": "Hold", "lastDate": "2026-07-31", "next": "2026-09-18", "instrument": "Uncollateralised overnight call rate", "tone": "hawkish-hold" },
+    { "code": "SARB", "bank": "South African Reserve Bank", "flag": "🇿🇦", "rate": "7.00%", "rateNum": 7.0, "lastMove": "Hold (4–2 vote, 2 members favoured +25bp) · prime 10.50%", "lastDate": "2026-07-23", "next": "2026-09-23", "instrument": "Repo rate", "tone": "hawkish-hold" },
+    { "code": "SNB", "bank": "Swiss National Bank", "flag": "🇨🇭", "rate": "0.00%", "rateNum": 0.0, "lastMove": "Hold", "lastDate": "2026-06-18", "next": "2026-09-24", "instrument": "SNB policy rate", "tone": "hold" },
+    { "code": "RBA", "bank": "Reserve Bank of Australia", "flag": "🇦🇺", "rate": "4.35%", "rateNum": 4.35, "lastMove": "Hold", "lastDate": "2026-08-11", "next": "2026-09-29", "instrument": "Cash rate target", "tone": "hold" },
+    { "code": "BOC", "bank": "Bank of Canada", "flag": "🇨🇦", "rate": "2.25%", "rateNum": 2.25, "lastMove": "Hold", "lastDate": "2026-09-02", "next": "2026-10-28", "instrument": "Overnight rate target", "tone": "hold" },
+    { "code": "RBNZ", "bank": "Reserve Bank of New Zealand", "flag": "🇳🇿", "rate": "2.75%", "rateNum": 2.75, "lastMove": "Hold", "lastDate": "2026-08-19", "next": "2026-10-28", "instrument": "Official cash rate", "tone": "hold" },
+    { "code": "RBI", "bank": "Reserve Bank of India", "flag": "🇮🇳", "rate": "5.25%", "rateNum": 5.25, "lastMove": "Hold", "lastDate": "2026-08-06", "next": "2026-10-07", "instrument": "Repo rate", "tone": "hold" },
+    { "code": "PBOC", "bank": "People's Bank of China", "flag": "🇨🇳", "rate": "3.00%", "rateNum": 3.0, "lastMove": "Hold", "lastDate": "2026-08-20", "next": "2026-09-21", "instrument": "1-year loan prime rate", "tone": "hold" },
+    { "code": "BCB", "bank": "Banco Central do Brasil", "flag": "🇧🇷", "rate": "14.00%", "rateNum": 14.0, "lastMove": "Hold", "lastDate": "2026-07-29", "next": "2026-09-16", "instrument": "Selic", "tone": "hold" },
+    { "code": "CBR", "bank": "Bank of Russia", "flag": "🇷🇺", "rate": "14.00%", "rateNum": 14.0, "lastMove": "Decision 11 Sep 2026 (see news)", "lastDate": "2026-09-11", "next": "2026-10-23", "instrument": "Key rate", "tone": "hold" }
+  ],
+  "southAfrica": {
+    "repo": 7.0,
+    "prime": 10.5,
+    "inflationTarget": "3% – 6% (MPC now aims for 3%)",
+    "lastCPI": "5.0% (June 2026, up from 4.5%)",
+    "nextMPC": "2026-09-23",
+    "note": "July MPC held at 7.00% by 4–2 with two members preferring +25bp; the previous meeting had hiked. Market focus: September 23 decision with CPI running above the 3% aim."
+  },
+  "usYields": [
+    { "symbol": "^IRX", "label": "3M", "name": "13-week T-bill", "months": 3 },
+    { "symbol": "2YY=F", "label": "2Y", "name": "2-year yield (futures proxy)", "months": 24 },
+    { "symbol": "^FVX", "label": "5Y", "name": "5-year Treasury", "months": 60 },
+    { "symbol": "^TNX", "label": "10Y", "name": "10-year Treasury", "months": 120 },
+    { "symbol": "^TYX", "label": "30Y", "name": "30-year Treasury", "months": 360 }
+  ],
+  "bondEtfs": {
+    "US Treasuries": ["SHY", "IEF", "TLT", "TIP"],
+    "US credit & aggregate": ["AGG", "BND", "LQD", "HYG", "MUB"],
+    "International & EM": ["BNDX", "EMB"],
+    "South Africa 🇿🇦": ["STXGVI.JO", "STXGOV.JO", "ETFBND.JO", "STXILB.JO"]
+  },
+  "bondFutures": ["ZT=F", "ZF=F", "ZN=F", "ZB=F", "UB=F"],
+  "etfNames": { "SHY": "iShares 1-3Y Treasury", "IEF": "iShares 7-10Y Treasury", "TLT": "iShares 20+Y Treasury", "TIP": "iShares TIPS", "AGG": "iShares Core US Aggregate", "BND": "Vanguard Total Bond", "LQD": "iShares IG Corporate", "HYG": "iShares High Yield", "MUB": "iShares National Muni", "BNDX": "Vanguard Intl Bond (hedged)", "EMB": "iShares USD EM Bond", "STXGVI.JO": "Satrix GOVI (SA govt bonds)", "STXGOV.JO": "Satrix SA Bond Portfolio", "ETFBND.JO": "1nvest SA Bond (STANLIB)", "STXILB.JO": "Satrix ILBI (SA inflation-linked)", "ZT=F": "2Y T-Note future", "ZF=F": "5Y T-Note future", "ZN=F": "10Y T-Note future", "ZB=F": "30Y T-Bond future", "UB=F": "Ultra T-Bond future" }
+}

@@ -1,0 +1,610 @@
+{
+  "_note": "Curated IPO reference data for the prototype (compiled 12 Sep 2026 from public IPO calendars and press releases). Live prices/returns are merged in by the server from Yahoo Finance. IPO prices for PSQL and TRBG were not confirmed, so their first-day close is used as the reference price.",
+  "stats": [
+    {
+      "label": "US IPOs completed YTD",
+      "value": "280",
+      "sub": "331 new filings · strongest pace since 2021",
+      "source": "Wall Street Horizon via Investing.com, 11 Sep 2026"
+    },
+    {
+      "label": "Largest IPO ever",
+      "value": "SpaceX · $85.7B",
+      "sub": "Priced $135 · Nasdaq: SPCX · 12 Jun 2026",
+      "source": "Company filings / press"
+    },
+    {
+      "label": "Largest foreign US IPO",
+      "value": "SK hynix · $26.5B",
+      "sub": "Priced $149 · Nasdaq: SKHY · 10 Jul 2026 · ~7x oversubscribed",
+      "source": "Press reports"
+    },
+    {
+      "label": "Next mega-test",
+      "value": "Anthropic",
+      "sub": "Filed 1 Jun 2026 · timing under review (calendar placeholder 23 Oct)",
+      "source": "Investing.com calendar / WSJ 8 Sep 2026"
+    }
+  ],
+  "recent2026": [
+    {
+      "symbol": "SPCX",
+      "company": "SpaceX (Space Exploration Technologies)",
+      "exchange": "Nasdaq",
+      "ipoDate": "2026-06-12",
+      "ipoPrice": 135,
+      "raised": "$85.7B",
+      "valuation": "~$1.77T",
+      "sector": "Aerospace / Satellite internet",
+      "note": "Largest IPO in history; fixed-price deal, $75B base raise"
+    },
+    {
+      "symbol": "SKHY",
+      "company": "SK hynix (ADS)",
+      "exchange": "Nasdaq",
+      "ipoDate": "2026-07-10",
+      "ipoPrice": 149,
+      "raised": "$26.5B",
+      "valuation": "~$1T",
+      "sector": "Semiconductors · HBM memory",
+      "note": "Largest US listing by a foreign company, beating Alibaba (2014)"
+    },
+    {
+      "symbol": "CBRS",
+      "company": "Cerebras Systems",
+      "exchange": "Nasdaq",
+      "ipoDate": "2026-05-14",
+      "ipoPrice": 185,
+      "raised": "$5.55B",
+      "valuation": "~$56B",
+      "sector": "AI accelerators",
+      "note": "Priced above upsized range; book ~20x covered"
+    },
+    {
+      "symbol": "FRVO",
+      "company": "Fervo Energy",
+      "exchange": "Nasdaq",
+      "ipoDate": "2026-05-13",
+      "ipoPrice": 27,
+      "raised": "$1.89B",
+      "valuation": "~$7.7B",
+      "sector": "Enhanced geothermal",
+      "note": "Upsized to 70M shares; biggest renewable-energy IPO on record"
+    },
+    {
+      "symbol": "PSQL",
+      "company": "Pasqal Holding",
+      "exchange": "Nasdaq",
+      "ipoDate": "2026-01-28",
+      "ipoPrice": null,
+      "raised": "n/a",
+      "valuation": "n/a",
+      "sector": "Quantum computing",
+      "note": "French neutral-atom quantum computing group"
+    },
+    {
+      "symbol": "TRBG",
+      "company": "TurboGen",
+      "exchange": "Nasdaq CM",
+      "ipoDate": "2026-09-03",
+      "ipoPrice": null,
+      "raised": "n/a",
+      "valuation": "n/a",
+      "sector": "Distributed power / micro-turbines",
+      "note": "Small-cap September debut"
+    }
+  ],
+  "class2025": [
+    {
+      "symbol": "CRWV",
+      "company": "CoreWeave",
+      "exchange": "Nasdaq",
+      "ipoDate": "2025-03-28",
+      "ipoPrice": 40,
+      "sector": "AI cloud infrastructure"
+    },
+    {
+      "symbol": "ETOR",
+      "company": "eToro Group",
+      "exchange": "Nasdaq",
+      "ipoDate": "2025-05-14",
+      "ipoPrice": 52,
+      "sector": "Retail brokerage"
+    },
+    {
+      "symbol": "CRCL",
+      "company": "Circle Internet Group",
+      "exchange": "NYSE",
+      "ipoDate": "2025-06-05",
+      "ipoPrice": 31,
+      "sector": "Stablecoins / payments"
+    },
+    {
+      "symbol": "VOYG",
+      "company": "Voyager Technologies",
+      "exchange": "NYSE",
+      "ipoDate": "2025-06-11",
+      "ipoPrice": 31,
+      "sector": "Defense & space"
+    },
+    {
+      "symbol": "CHYM",
+      "company": "Chime Financial",
+      "exchange": "Nasdaq",
+      "ipoDate": "2025-06-12",
+      "ipoPrice": 27,
+      "sector": "Neobank"
+    },
+    {
+      "symbol": "FIG",
+      "company": "Figma",
+      "exchange": "NYSE",
+      "ipoDate": "2025-07-31",
+      "ipoPrice": 33,
+      "sector": "Design software"
+    },
+    {
+      "symbol": "FLY",
+      "company": "Firefly Aerospace",
+      "exchange": "Nasdaq",
+      "ipoDate": "2025-08-07",
+      "ipoPrice": 45,
+      "sector": "Space launch"
+    },
+    {
+      "symbol": "BLSH",
+      "company": "Bullish",
+      "exchange": "NYSE",
+      "ipoDate": "2025-08-13",
+      "ipoPrice": 37,
+      "sector": "Crypto exchange"
+    },
+    {
+      "symbol": "KLAR",
+      "company": "Klarna Group",
+      "exchange": "NYSE",
+      "ipoDate": "2025-09-10",
+      "ipoPrice": 40,
+      "sector": "BNPL / fintech"
+    },
+    {
+      "symbol": "GEMI",
+      "company": "Gemini Space Station",
+      "exchange": "Nasdaq",
+      "ipoDate": "2025-09-12",
+      "ipoPrice": 28,
+      "sector": "Crypto exchange"
+    },
+    {
+      "symbol": "STUB",
+      "company": "StubHub Holdings",
+      "exchange": "NYSE",
+      "ipoDate": "2025-09-17",
+      "ipoPrice": 23.5,
+      "sector": "Ticketing marketplace"
+    }
+  ],
+  "upcoming": [
+    {
+      "symbol": "RIKU",
+      "company": "Riku Dining Group",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-09-14",
+      "priceRange": "$4.00 – $6.00",
+      "dealSize": "$25M",
+      "status": "Expected",
+      "sector": "Restaurants"
+    },
+    {
+      "symbol": "ASBH",
+      "company": "American Savings Bank",
+      "exchange": "NYSE",
+      "region": "US",
+      "date": "2026-09-17",
+      "priceRange": "$15.00 – $17.00",
+      "dealSize": "$127M",
+      "status": "Expected",
+      "sector": "Regional banking (Hawaii)"
+    },
+    {
+      "symbol": "HNUC",
+      "company": "Holtec Nuclear Corporation",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-09-18",
+      "priceRange": "$15.00 – $18.00",
+      "dealSize": "$825M",
+      "status": "Expected",
+      "sector": "Nuclear energy / SMRs",
+      "note": "50M shares · implied market cap ~$9.4B · largest US deal of the month"
+    },
+    {
+      "symbol": "OIG",
+      "company": "Orion180 Insurance Group",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-09-18",
+      "priceRange": "$15.00 – $17.00",
+      "dealSize": "$320M",
+      "status": "Expected",
+      "sector": "Insurance",
+      "note": "20M shares · implied market cap ~$1.6B"
+    },
+    {
+      "symbol": "BWGC",
+      "company": "BW Industrial",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-09-24",
+      "priceRange": "$6.00 – $7.00",
+      "dealSize": "$17M",
+      "status": "Expected",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "MDAT",
+      "company": "Web3Labs Global",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-09-24",
+      "priceRange": "$4.00 – $5.00",
+      "dealSize": "$28M",
+      "status": "Expected",
+      "sector": "Blockchain software"
+    },
+    {
+      "symbol": "PTT",
+      "company": "Siyata PTT",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-09-30",
+      "priceRange": "$7.00",
+      "dealSize": "$43M",
+      "status": "Expected",
+      "sector": "Push-to-talk devices"
+    },
+    {
+      "symbol": "GVTX",
+      "company": "Gravitics Holdings",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "TBC",
+      "priceRange": "$14.00 – $17.00",
+      "dealSize": "$137M",
+      "status": "Postponed",
+      "sector": "Space station modules",
+      "note": "Was slated for 3 Sep 2026; not yet trading"
+    },
+    {
+      "symbol": "NSE",
+      "company": "National Stock Exchange of India",
+      "exchange": "NSE / BSE",
+      "region": "India",
+      "date": "2026-09-17",
+      "dateEnd": "2026-09-21",
+      "priceRange": "₹1,700 – ₹1,785",
+      "dealSize": "₹22,562 Cr (~$2.5B)",
+      "status": "Opens next week",
+      "sector": "Exchange operator",
+      "note": "Seeks ~$46B valuation in trimmed deal (Reuters, 10 Sep); India's largest listing of 2026"
+    },
+    {
+      "symbol": "HEROMOTORS",
+      "company": "Hero Motors",
+      "exchange": "NSE / BSE",
+      "region": "India",
+      "date": "2026-09-16",
+      "dateEnd": "2026-09-18",
+      "priceRange": "₹79 – ₹84",
+      "dealSize": "₹1,000 Cr",
+      "status": "Opens next week",
+      "sector": "Auto components"
+    },
+    {
+      "symbol": "SSRETAIL",
+      "company": "SS Retail",
+      "exchange": "NSE / BSE",
+      "region": "India",
+      "date": "2026-09-16",
+      "dateEnd": "2026-09-18",
+      "priceRange": "₹403 – ₹424",
+      "dealSize": "₹501 Cr",
+      "status": "Opens next week",
+      "sector": "Retail"
+    },
+    {
+      "symbol": "ANTP",
+      "company": "Anthropic",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-10-23",
+      "priceRange": "TBA",
+      "dealSize": "TBA",
+      "status": "Filed",
+      "sector": "Frontier AI",
+      "note": "Public S-1 filed 1 Jun 2026; reports on 5 Sep said timing pushed back — calendar date is a placeholder"
+    },
+    {
+      "symbol": "OAI",
+      "company": "OpenAI",
+      "exchange": "Nasdaq",
+      "region": "US",
+      "date": "2026-11-27",
+      "priceRange": "TBA",
+      "dealSize": "TBA",
+      "status": "Confidential filing",
+      "sector": "Frontier AI",
+      "note": "Confidentially filed 8 Jun 2026 (reported); calendar date is a placeholder"
+    }
+  ],
+  "pipeline": [
+    {
+      "company": "Anthropic",
+      "status": "Filed",
+      "detail": "S-1 filed 1 Jun 2026 · bankers courting top-tier credit ratings (FT, 8 Sep)",
+      "tone": "hot"
+    },
+    {
+      "company": "OpenAI",
+      "status": "Confidential filing",
+      "detail": "Reported ~$852B private valuation · placeholder listing date 27 Nov",
+      "tone": "hot"
+    },
+    {
+      "company": "Dangote Group",
+      "status": "Planned",
+      "detail": "CEO: \"going to be Africa's biggest ever IPO\" (CNN, 8 Sep)",
+      "tone": "africa"
+    },
+    {
+      "company": "Oura",
+      "status": "Filed",
+      "detail": "Robinhood added as underwriter (WSJ, 7 Sep)",
+      "tone": "neutral"
+    },
+    {
+      "company": "Brooks Automation",
+      "status": "Confidential filing",
+      "detail": "Filed confidentially for IPO (WSJ, 10 Sep)",
+      "tone": "neutral"
+    },
+    {
+      "company": "ADARx Pharmaceuticals",
+      "status": "Planned",
+      "detail": "AbbVie-backed siRNA developer plans IPO (Fierce Biotech, 6 Sep)",
+      "tone": "neutral"
+    },
+    {
+      "company": "Anduril",
+      "status": "Pipeline",
+      "detail": "Defense-tech; reported ~$61B valuation",
+      "tone": "neutral"
+    },
+    {
+      "company": "Revolut · Kraken · Discord · Canva · Perplexity",
+      "status": "Rumoured",
+      "detail": "Frequently cited 2026–27 candidates; no confirmed timing",
+      "tone": "muted"
+    },
+    {
+      "company": "Databricks",
+      "status": "Delayed to 2027",
+      "detail": "CEO called 2026 \"a terrible year to go public\"",
+      "tone": "muted"
+    },
+    {
+      "company": "Motive Technologies",
+      "status": "Withdrawn",
+      "detail": "Pulled estimated $600M IPO (10 Sep)",
+      "tone": "cold"
+    }
+  ],
+  "fallbackNews": [
+    {
+      "title": "India's NSE set to list in a long-delayed IPO",
+      "source": "Reuters",
+      "published": 1789105040000,
+      "link": "https://news.google.com/search?q=India%27s+NSE+set+to+list+in+a+long-delayed+IPO"
+    },
+    {
+      "title": "India's NSE seeks $46 billion valuation in trimmed IPO, launch next week",
+      "source": "Reuters",
+      "published": 1789080951000,
+      "link": "https://news.google.com/search?q=NSE+seeks+%2446+billion+valuation+in+trimmed+IPO"
+    },
+    {
+      "title": "Brooks Automation Files Confidentially for IPO",
+      "source": "WSJ",
+      "published": 1789052160000,
+      "link": "https://news.google.com/search?q=Brooks+Automation+Files+Confidentially+for+IPO"
+    },
+    {
+      "title": "China warns bankers not to flood IPO market with 'low-quality' companies",
+      "source": "Financial Times",
+      "published": 1789001359000,
+      "link": "https://news.google.com/search?q=China+warns+bankers+not+to+flood+IPO+market"
+    },
+    {
+      "title": "Dangote CEO: This is going to be Africa's biggest ever IPO",
+      "source": "CNN",
+      "published": 1788993538000,
+      "link": "https://news.google.com/search?q=Dangote+CEO+Africa%27s+biggest+ever+IPO"
+    },
+    {
+      "title": "Anthropic and OpenAI bankers push for top-tier credit ratings post-IPO",
+      "source": "Financial Times",
+      "published": 1788987893000,
+      "link": "https://news.google.com/search?q=Anthropic+and+OpenAI+bankers+push+for+top-tier+credit+ratings"
+    },
+    {
+      "title": "What to Know About Anthropic's Planned IPO",
+      "source": "WSJ",
+      "published": 1788981180000,
+      "link": "https://news.google.com/search?q=What+to+Know+About+Anthropic%E2%80%99s+Planned+IPO"
+    },
+    {
+      "title": "SpaceX trades 11% above its $135 IPO price as analysts target $280 — but one investor warns valuation is 'beyond silly'",
+      "source": "Yahoo Finance",
+      "published": 1788969300000,
+      "link": "https://news.google.com/search?q=SpaceX+trades+11%25+above+its+%24135+IPO+price"
+    },
+    {
+      "title": "Everything you need to know about Anthropic's IPO",
+      "source": "Yahoo Finance",
+      "published": 1788961953000,
+      "link": "https://news.google.com/search?q=Everything+you+need+to+know+about+Anthropic%E2%80%99s+IPO"
+    },
+    {
+      "title": "Robinhood Wins a New Role in the Oura IPO: Underwriter",
+      "source": "WSJ",
+      "published": 1788897280000,
+      "link": "https://news.google.com/search?q=Robinhood+Wins+a+New+Role+in+the+Oura+IPO"
+    },
+    {
+      "title": "AbbVie-backed ADARx plans IPO to fund array of siRNA med trials",
+      "source": "Fierce Biotech",
+      "published": 1788805510000,
+      "link": "https://news.google.com/search?q=AbbVie-backed+ADARx+plans+IPO"
+    },
+    {
+      "title": "Anthropic pushes back IPO as investors await one of AI's biggest public-market tests",
+      "source": "Calcalist",
+      "published": 1788715140000,
+      "link": "https://news.google.com/search?q=Anthropic+pushes+back+IPO"
+    }
+  ],
+  "jseAfrica": {
+    "_note": "JSE & Africa listings coverage. 'listed' entries are enriched with live prices by the server (first traded bar = reference where no offer price).",
+    "listed": [
+      {
+        "symbol": "CNP.JO",
+        "company": "Canal+ SA",
+        "exchange": "JSE Main Board (secondary inward)",
+        "ipoDate": "2026-06-03",
+        "ipoPrice": null,
+        "type": "Secondary listing",
+        "sector": "Media & pay-TV",
+        "note": "First French company on the JSE; follows R55bn MultiChoice buyout. Primary listing: LSE (CAN)"
+      },
+      {
+        "symbol": "AII.JO",
+        "company": "Aimia Inc",
+        "exchange": "JSE Main Board (secondary inward)",
+        "ipoDate": "2026-08-12",
+        "ipoPrice": null,
+        "type": "Secondary listing",
+        "sector": "Diversified holding",
+        "note": "First Main Board listing of 2026 via fast-track process; primary listing TSX (AIM)"
+      },
+      {
+        "symbol": "ORBT30.JO",
+        "company": "Oribi South Africa Top 30 Index Prescient ETF",
+        "exchange": "JSE",
+        "ipoDate": "2026-08-11",
+        "ipoPrice": null,
+        "type": "ETF listing",
+        "sector": "Index ETF",
+        "note": "Tracks a concentrated SA top-30 basket"
+      },
+      {
+        "symbol": "GCT.JO",
+        "company": "Greencoat Renewables",
+        "exchange": "JSE Main Board (moved from AltX May 2026)",
+        "ipoDate": "2025-06-09",
+        "ipoPrice": null,
+        "type": "Secondary listing",
+        "sector": "Renewable infrastructure",
+        "note": "Promoted from AltX to the Main Board on 29 May 2026"
+      },
+      {
+        "symbol": "BOX.JO",
+        "company": "Boxer Retail",
+        "exchange": "JSE Main Board",
+        "ipoDate": "2024-11-28",
+        "ipoPrice": 54,
+        "type": "IPO",
+        "sector": "Discount grocery retail",
+        "note": "Pick n Pay's R8.5bn unbundling IPO — the JSE's largest in years; priced at R54"
+      },
+      {
+        "symbol": "WBC.JO",
+        "company": "WeBuyCars Holdings",
+        "exchange": "JSE Main Board",
+        "ipoDate": "2024-04-11",
+        "ipoPrice": null,
+        "type": "Unbundling / listing",
+        "sector": "Used-vehicle marketplace",
+        "note": "Unbundled from Transaction Capital"
+      },
+      {
+        "symbol": "RBO.JO",
+        "company": "Rainbow Chicken",
+        "exchange": "JSE Main Board",
+        "ipoDate": "2024-06-26",
+        "ipoPrice": null,
+        "type": "Unbundling / listing",
+        "sector": "Poultry",
+        "note": "Unbundled from RCL Foods"
+      }
+    ],
+    "upcoming": [
+      {
+        "company": "Dangote Petroleum Refinery & Petrochemicals",
+        "exchange": "Nigerian Exchange (NGX) · JSE secondary intended (~2029)",
+        "region": "Nigeria",
+        "date": "2026-09-14",
+        "dateEnd": "2026-10-13",
+        "priceRange": "₦525 / share",
+        "dealSize": "4.1bn shares · ~$1.6bn (target up to $5bn)",
+        "status": "Subscription opens Mon",
+        "sector": "Oil refining & petrochemicals",
+        "note": "Set to be Africa's largest-ever IPO at a ~$49bn valuation; indicative NGX listing late Nov 2026. Kenyan pension funds tipped for up to $500m of the book"
+      },
+      {
+        "company": "Coca-Cola HBC",
+        "exchange": "JSE Main Board (secondary inward) · primary LSE: CCH",
+        "region": "South Africa",
+        "date": "TBC",
+        "priceRange": "n/a (secondary)",
+        "dealSize": "£18bn market cap (~R395bn)",
+        "status": "H2 2026 target",
+        "sector": "Beverages",
+        "note": "Listing conditional on completing the $2.6bn purchase of 75% of Coca-Cola Beverages Africa; Competition Commission recommended approval in July with a JSE listing as a condition. Likely the JSE's largest listing in a decade"
+      },
+      {
+        "company": "JSE Simplification Project pipeline",
+        "exchange": "JSE",
+        "region": "South Africa",
+        "date": "TBC",
+        "priceRange": "—",
+        "dealSize": "—",
+        "status": "Watch",
+        "sector": "Market structure",
+        "note": "FSCA-approved streamlined listing requirements (Dec 2025) intended to accelerate new admissions; JSE CEO guided to 'a couple' of listings in 2026"
+      }
+    ],
+    "context": [
+      {
+        "label": "JSE listed companies",
+        "value": "265",
+        "sub": "Main Board + AltX · market cap > R25 trn (Feb 2026)"
+      },
+      {
+        "label": "2026 Main Board additions",
+        "value": "Canal+ · Aimia",
+        "sub": "Both secondary inward listings via fast-track"
+      },
+      {
+        "label": "Africa's biggest IPO",
+        "value": "Dangote · 14 Sep",
+        "sub": "NGX subscription 14 Sep – 13 Oct · ₦525"
+      },
+      {
+        "label": "Largest pending JSE deal",
+        "value": "Coca-Cola HBC",
+        "sub": "~R395bn secondary listing targeted by end-2026"
+      }
+    ]
+  }
+}

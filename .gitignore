@@ -1,0 +1,6 @@
+node_modules/
+data/last_good/
+*.log
+*.zip
+.DS_Store
+screenshots/

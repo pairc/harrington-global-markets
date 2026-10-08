@@ -1,0 +1,16 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: harrington-global-markets
+    runtime: node
+    plan: free
+    region: frankfurt          # closest Render region to Johannesburg; alternatives: oregon, ohio, virginia, singapore
+    buildCommand: "echo 'no dependencies to install'"
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: NODE_ENV
+        value: production
